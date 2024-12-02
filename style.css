@@ -1,0 +1,70 @@
+/* 全局樣式 */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f3f7f0; /* 淡綠色背景 */
+    color: #333; /* 主文字為黑色 */
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+/* 容器樣式 */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* 頭部樣式 */
+header {
+    text-align: center;
+    background: #2e7d32; /* 深綠色背景 */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* 陰影 */
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* 問題區塊樣式 */
+.question {
+    background: #e8f5e9; /* 淡綠背景 */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 陰影 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 滑鼠懸停動畫 */
+}
+
+.question:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* 標題樣式 */
+.question h3 {
+    color: #2e7d32; /* 深綠標題 */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* 段落與列表樣式 */
+.question ul {
+    margin-left: 20px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.question li {
+    margin-bottom: 10px;
+}
+
+.question p {
+    margin: 10px 0;
+    text-indent: 2em; /* 段落縮排 */
+    color: #333; /* 黑色文字 */
+}
